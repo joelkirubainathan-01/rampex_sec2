@@ -4,7 +4,6 @@ int main() {
     printf("Enter number of rows: ");
     scanf("%d", &rows);
     for(i = rows; i >= 1; i--) {
-        // Print spaces
         for(j = 1; j <= rows - i; j++) {
             printf(" ");
         }
